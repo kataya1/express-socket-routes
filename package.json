@@ -1,0 +1,35 @@
+{
+  "name": "expresssocket",
+  "version": "1.0.0",
+  "description": "An unopinionated lib for express websocket routing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"all is well\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kataya1/expresssocket.git"
+  },
+  "keywords": [
+    "express",
+    "socket",
+    "routing",
+    "route",
+    "websocket",
+    "ws",
+    "restful",
+    "api"
+  ],
+  "author": "kataya1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kataya1/expresssocket/issues"
+  },
+  "homepage": "https://github.com/kataya1/expresssocket#readme",
+  "devDependencies": {
+    "express": "^4.18.2"
+  },
+  "dependencies": {
+    "ws": "^8.13.0"
+  }
+}
