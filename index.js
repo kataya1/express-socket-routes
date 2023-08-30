@@ -1,13 +1,7 @@
-// this library adds the fucntion sRoute to the express app
-
-//  
-
-// TODO error handling, for the get request
-// insure port number is the same as the server
-// async/ await instead of http.get callback
-
-// a map mapping the route to it's handler function
+const http = require('node:http')
+// a secret route that is used in the get route the sRoute internally makes
 const websocketRoute = "/secretwebsocketRoute1234secret";
+// a map mapping the route to it's handler function
 const globalAppWSClosure = new Map();
 
 // one job: assign or modify methods in the express app
@@ -60,9 +54,6 @@ function makeNewListenFunction(app) {
   };
 }
 
-
-
-const http = require('node:http')
 // one job: get's the route parameter from a url
 function getRouteParams(url, port) {
   return new Promise((resolve, reject) => {
@@ -89,6 +80,4 @@ function getRouteParams(url, port) {
   });
 }
 
-// export default augumentApp;
-// Also support CommonJS
 module.exports = augumentApp;

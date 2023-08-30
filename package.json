@@ -1,20 +1,21 @@
 {
-  "name": "expresssocket",
-  "version": "1.0.0",
+  "name": "express-socket-routes",
+  "version": "1.0.1",
   "description": "An unopinionated lib for express websocket routing",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/*.js" 
+    "test": "mocha test/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/kataya1/expresssocket.git"
+    "url": "git+ssh://git@github.com:kataya1/express-socket-routes.git"
   },
   "keywords": [
     "express",
     "socket",
     "routing",
     "route",
+    "upgrade",
     "websocket",
     "ws",
     "restful",
@@ -23,15 +24,12 @@
   "author": "kataya1",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kataya1/expresssocket/issues"
+    "url": "https://github.com/kataya1/express-socket-routes/issues"
   },
-  "homepage": "https://github.com/kataya1/expresssocket#readme",
+  "homepage": "https://github.com/kataya1/express-socket-routes#readme",
   "devDependencies": {
     "assert": "^2.0.0",
     "express": "^4.18.2",
     "mocha": "^10.2.0"
-  },
-  "dependencies": {
-    "ws": "^8.13.0"
   }
 }
