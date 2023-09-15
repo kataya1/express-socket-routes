@@ -2,6 +2,7 @@
 
 - error handling, for the get request
 - Documentations
+- add tests to .npmignore
 
 ## [1.0.1] - 2023-09-28
 
