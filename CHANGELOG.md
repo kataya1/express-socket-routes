@@ -1,16 +1,19 @@
 ## [Unreleased]
 
-- error handling, for the get request
+
+
+## [1.0.2] - 2023-09-19
+
 - Documentations
 - add tests to .npmignore
 
-## [1.0.1] - 2023-09-28
+## [1.0.1] - 2023-08-28
 
 - clean up
 - remove unnecessary dependency "ws"
 -
 
-## [1.0.0] - 2023-09-28
+## [1.0.0] - 2023-08-28
 
 ## [0.0.2]
 
